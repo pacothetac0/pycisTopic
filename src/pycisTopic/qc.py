@@ -217,7 +217,7 @@ def compute_kde(
         axis=1,
     )
 
-   def compute_kde_part(
+    def compute_kde_part(
         test_data_unique_split_array: npt.NDArray[np.float64],
     ) -> npt.NDArray[np.float64]:
         """
