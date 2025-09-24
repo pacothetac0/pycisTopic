@@ -175,6 +175,7 @@ def compute_kde(
     test_data.
 
     """
+    print('made it to prateek KDE')
     training_data = np.asarray(training_data, dtype=np.float64)
     test_data = np.asarray(test_data, dtype=np.float64)
 
